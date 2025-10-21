@@ -9,8 +9,8 @@
             width: 100%;
         }
         .top-bar {
-    
-           
+
+
             font-size: 12.6px;
             padding: 35px 15px;
             font-weight: 500;
@@ -20,15 +20,15 @@
 
             .top-bar a {
                 font-weight: 500;
-            }    
-            
+            }
+
             .logo {
                 margin-left: -7px;
                 margin-top: -3px;
             height: 23px;
         }
-            
-            
+
+
 
         .nav-buttons button {
                 transform: skewX(0deg);
@@ -47,13 +47,13 @@
     align-items: flex-start;
     height: 101px;
             padding: 0;
-            
+
             box-shadow: 0px 1px 4px #000000;
 
   }
 
   .nav-content {
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
 margin: 0px;
   }
 
@@ -91,12 +91,12 @@ margin: 0px;
     text-align: center;
     border-radius: 0;
     clip-path: none;
-    
+
   }
 
-  
+
   .utility-nav {
-    
+
     flex-direction: column;
     align-items: stretch;
   }
@@ -112,13 +112,13 @@ margin: 0px;
     width: 100%;
     border-radius: 0;
     margin: 0;
-    
+
   }
 
   .membership-btn span {
     padding: 0 18px;
 
-}  
+}
 
 
 
@@ -130,14 +130,14 @@ margin: 0px;
 
 padding-bottom: 100%;
   }
-  
+
         .fsearch {
     margin: 10px 15px 20px 15px;
             width: 100%;
             display: block;
 
         }
-        
+
         .ssearch {
             display: none;
         }
@@ -146,7 +146,7 @@ padding-bottom: 100%;
 
     position: relative;
     overflow: hidden;
-    
+
     margin: 0 15px;
 
 
@@ -159,7 +159,7 @@ padding-bottom: 100%;
     margin-left: -15px;
     padding-left: 35px;
     padding-bottom: 20px;
-    
+
 
   }
 
@@ -175,7 +175,7 @@ margin-top: -3px;
     .membership-mobile {
         display: block;
         height: 40px;
-            border-right: 1px solid white; 
+            border-right: 1px solid white;
             margin-top: 10px;
 
     }
@@ -188,10 +188,9 @@ margin-top: -3px;
     }
 
     .hero-section {
-                height:549px;
-                
+
             }
-    
+
     .hero-bg {
 
         content: url("../img/zig-zag-img-1.png");
@@ -204,9 +203,9 @@ margin-top: -3px;
 
         .hero-content {
             flex-direction: column-reverse;
-justify-content: center;  
+justify-content: center;
   align-items: center;
-  
+
             padding: 0px 15px;
             gap: 0px;
             width: 100%;
@@ -214,9 +213,9 @@ justify-content: center;
         .hero-image>img {
             height: 200px;
         }
-        
+
         .hero-image {
-            
+
             margin-top: 65px;
             margin-left: -15px;
         }
@@ -259,7 +258,7 @@ justify-content: center;
         .thumbnailtrack {
             margin-top: -20px;
             width: 375px;
-            
+
             left: 0px;
         }
 
@@ -273,10 +272,10 @@ justify-content: center;
         }
         .post-section {
             flex-wrap: unset;
-            
+
     flex-direction: column;
     align-items:flex-start;
-    
+
             justify-content: center;
 
       padding-left: 0px;
@@ -328,7 +327,7 @@ justify-content: center;
         }
 
 
-        
+
 
 
 
@@ -371,7 +370,7 @@ justify-content: center;
         }
 
 
-        
+
 
             .zigzag-content h3 {
                 margin-top: 5px;
@@ -391,7 +390,7 @@ justify-content: center;
         }
 
 
-       
+
 
 .contact-section {
             margin-top: 44px;
@@ -457,7 +456,7 @@ justify-content: center;
 
     .thumbnailtrack {
             width: 315px;
-            
+
         }
 
           .thumb-item {
@@ -479,7 +478,7 @@ justify-content: center;
             width: 300px;
         }
 
-        
+
 
 .main-aside {
             width: 300px;
@@ -488,7 +487,7 @@ justify-content: center;
          .membership-btn span {
     padding: 0 5px;
 
-}  
+}
 .search-box input {
     width: 91.5%;
             }
