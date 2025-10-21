@@ -665,6 +665,8 @@
             justify-content: space-between;
             align-items: stretch;
             background-color: rgba(95, 255, 140, 0.33);
+            height: 239px;
+
         }
 
         .zigzag-row2 {
@@ -673,17 +675,20 @@
             justify-content: space-between;
             align-items: stretch;
             background-color: rgba(95, 255, 140, 0.16);
+            height: 239px;
+
         }
 
         .zigzag-image-wrapper {
             width: 60%;
-            height: 239px;
+            height: 100%;
 
             overflow: hidden;
         }
 
         .zigzag-image {
             width: 100%;
+            height: 100%;
             object-fit: cover;
             display: block;
         }

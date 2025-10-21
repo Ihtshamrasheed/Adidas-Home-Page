@@ -340,18 +340,18 @@ justify-content: center;
 
         .zigzag-row1 {
             width: 100%;
-            height: auto;
+            height: 300px;
             flex-direction: column;
         }
 
         .zigzag-row2 {
             width: 100%;
-            height: auto;
+            height: 300px;
             flex-direction: column-reverse;
         }
 
         .zigzag-image-wrapper {
-            height: 203px;
+            height: 100%;
             width: auto;
         }
 
