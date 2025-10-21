@@ -1,0 +1,497 @@
+@media (max-width: 940px) {
+            .secondary-nav{
+                display: none;
+            }
+
+            .container {
+            margin: 0;
+            padding: 0px;
+            width: 100%;
+        }
+        .top-bar {
+    
+           
+            font-size: 12.6px;
+            padding: 35px 15px;
+            font-weight: 500;
+                line-height: 1.7;
+
+        }
+
+            .top-bar a {
+                font-weight: 500;
+            }    
+            
+            .logo {
+                margin-left: -7px;
+                margin-top: -3px;
+            height: 23px;
+        }
+            
+            
+
+        .nav-buttons button {
+                transform: skewX(0deg);
+                background-clip: padding-box;
+            }
+
+                .nav-buttons button span {
+                    transform: skewX(0deg);
+                }
+
+
+
+.nav-bar {
+
+    flex-direction: column;
+    align-items: flex-start;
+    height: 101px;
+            padding: 0;
+            
+            box-shadow: 0px 1px 4px #000000;
+
+  }
+
+  .nav-content {
+    flex-wrap: wrap; 
+margin: 0px;
+  }
+
+  .nav-logo {
+    margin-top: 11px;
+
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+
+  .burger-menu {
+    margin-right: -5px;
+        display: block;
+    cursor: pointer;
+    margin-left: auto;
+  }
+
+  .nav-buttons {
+    bottom: 0;
+    width: 100%;
+    gap: 0;
+    padding: 0;
+    flex-basis: 100%;
+
+  }
+
+
+  .nav-buttons .nav-btn {
+    margin-top: 9px;
+
+    width: 100%;
+    text-align: center;
+    border-radius: 0;
+    clip-path: none;
+    
+  }
+
+  
+  .utility-nav {
+    
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .utility-buttons {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .utility-buttons .nav-btn {
+    clip-path: none;
+    width: 100%;
+    border-radius: 0;
+    margin: 0;
+    
+  }
+
+  .membership-btn span {
+    padding: 0 18px;
+
+}  
+
+
+
+
+  .secondary-left{
+        width: 100%;
+
+    flex-wrap: wrap;
+
+padding-bottom: 100%;
+  }
+  
+        .fsearch {
+    margin: 10px 15px 20px 15px;
+            width: 100%;
+            display: block;
+
+        }
+        
+        .ssearch {
+            display: none;
+        }
+
+  .secondary-nav-buttons {
+
+    position: relative;
+    overflow: hidden;
+    
+    margin: 0 15px;
+
+
+    flex-direction: column;
+    align-items:flex-start;
+    flex-basis: 100%;
+  }
+
+  .secondary-nav-buttons button {
+    margin-left: -15px;
+    padding-left: 35px;
+    padding-bottom: 20px;
+    
+
+  }
+
+  .secondary-nav .nav-btn {
+    display: block;
+    margin: 0;
+  }
+
+         .menu-close{
+margin-top: -3px;
+}
+
+    .membership-mobile {
+        display: block;
+        height: 40px;
+            border-right: 1px solid white; 
+            margin-top: 10px;
+
+    }
+
+.search-box input {
+    width: 93%;
+            }
+    .title-bar {
+        display: none;
+    }
+
+    .hero-section {
+                height:549px;
+                
+            }
+    
+    .hero-bg {
+
+        content: url("../img/zig-zag-img-1.png");
+        height: 700px;
+        object-fit:cover;
+        object-position:unset;
+        top: unset;
+
+        }
+
+        .hero-content {
+            flex-direction: column-reverse;
+justify-content: center;  
+  align-items: center;
+  
+            padding: 0px 15px;
+            gap: 0px;
+            width: 100%;
+        }
+        .hero-image>img {
+            height: 200px;
+        }
+        
+        .hero-image {
+            
+            margin-top: 65px;
+            margin-left: -15px;
+        }
+
+        .play-button{
+            height: 60px;
+            width: 60px;
+            margin-left: 4px;
+        }
+        .play-button img{
+            height: 26px;
+        }
+
+        .hero-text h2 {
+                font-size: 29px;
+                text-transform: uppercase;
+                line-height: 1.195;
+                margin-top: 32px;
+
+
+            }
+
+            .hero-text p {
+                font-size: 15.8px;
+                width: 95%;
+                font-weight: 400;
+                line-height: 1.4;
+
+                margin-top: 18px;
+            }
+
+            .hero-indicators {
+            margin-top: 33px;
+            margin-left: -25px;
+        }
+        .main-grid {
+            flex-direction: column;
+        }
+
+        .thumbnailtrack {
+            margin-top: -20px;
+            width: 375px;
+            
+            left: 0px;
+        }
+
+          .thumb-item {
+            width: 347px;
+            height: 347px;
+        }
+
+        .thumb-divider {
+            width: 347px;
+        }
+        .post-section {
+            flex-wrap: unset;
+            
+    flex-direction: column;
+    align-items:flex-start;
+    
+            justify-content: center;
+
+      padding-left: 0px;
+      gap: 18px;
+    }
+    .thumb-track {
+        margin-left: 18px;
+        }
+
+        .post {
+      width: 347px;
+      height:min-content;
+    }
+.thumb-indicators {
+            margin-bottom: 6px;;
+        }
+
+        .thumb-indicators .indicatoor {
+                width: 10px;
+            }
+
+            .thumb-divider {
+            margin-left: 0px;
+        }
+
+ .main-grid {
+                align-items: center;
+
+        }
+
+   .post-section {
+      margin: 0;
+      padding: 0;
+      margin-top: 10px;
+
+
+    }
+
+.post {
+            height: auto;
+            justify-content:flex-start;
+
+        }
+
+    .post-info {
+            height: auto;
+            padding-top: 20px ;
+            padding-bottom: 20px ;
+        }
+
+
+        
+
+
+
+        .zigzag-section {
+            width: 347px;
+            margin-top: 28px;
+            gap: 0px;
+        }
+
+        .zigzag-row1 {
+            width: 100%;
+            height: auto;
+            flex-direction: column;
+        }
+
+        .zigzag-row2 {
+            width: 100%;
+            height: auto;
+            flex-direction: column-reverse;
+        }
+
+        .zigzag-image-wrapper {
+            height: 203px;
+            width: auto;
+        }
+
+
+        .skew-right {
+            clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+        }
+
+        .skew-left {
+            clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+        }
+
+        .zigzag-skew {
+            padding: 10px;
+            font-family: 'Oswald-DemiBold';
+            font-size: 18px;
+        }
+
+
+        
+
+            .zigzag-content h3 {
+                margin-top: 5px;
+            }
+
+            .zigzag-content p {
+                padding-right: 0px;
+                width: 270px;
+                margin-top: 7px;
+            }
+
+
+
+.main-aside {
+    margin-top: 56px;
+            width: 347px;
+        }
+
+
+       
+
+.contact-section {
+            margin-top: 44px;
+            padding: 34px 0;
+            text-align: center;
+        }
+
+.contact-title {
+            font-family: 'Oswald-DemiBold';
+            font-size: 23.5px;
+            margin-bottom: 17px;
+        }
+
+.contact-form {
+            max-width: 365px;
+            margin: 0 auto;
+        }
+
+ .contact-form label {
+                font-size: 16.5px;
+            }
+.row {
+            margin: 0px;
+            flex-wrap: wrap;
+            flex-direction: column;
+        }
+.leftField {
+            margin-right: 0px;
+        }
+
+        .rightField {
+            margin-left: 0px;
+        }
+
+.field {
+            flex: 1;
+            margin: 2px 10px 15px 10px;
+            flex-direction: column;
+        }
+.radioLabels {
+            margin-left: 6px;
+
+            margin-bottom: 20px;
+        }
+
+.field textarea {
+            margin-bottom: 12px;
+        }
+
+        .footer-nav {
+            padding: 33px 33px;
+        }
+
+        .footer-links a {
+            line-height: 1.5;
+        }
+
+
+
+
+    }
+@media (max-width: 374px) {
+
+    .thumbnailtrack {
+            width: 315px;
+            
+        }
+
+          .thumb-item {
+            width: 300px;
+            height: 300px;
+        }
+
+        .thumb-divider {
+            width: 300px;
+
+
+         }
+
+         .post {
+      width: 300px;
+    }
+
+.zigzag-section {
+            width: 300px;
+        }
+
+        
+
+.main-aside {
+            width: 300px;
+        }
+
+         .membership-btn span {
+    padding: 0 5px;
+
+}  
+.search-box input {
+    width: 91.5%;
+            }
+
+
+        }
