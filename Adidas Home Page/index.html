@@ -8,7 +8,9 @@
      <link rel="stylesheet" href="./css/styles.css">
      <link rel="stylesheet" href="./css/tablet-styles.css">
      <link rel="stylesheet" href="./css/mobile-styles.css">
-
+     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"/>
 </head>
 <body>
     <div class="page-container">
@@ -24,7 +26,7 @@
             <div class="container nav-content">
                 <div class="nav-logo">
       <img class="logo" src="./img/logo.png" alt="Adidas Logo">
-      <img class="burger-toggle burger-menu "  src="./img/burger-Icon.png" alt="menu">
+      <img class="burger-toggle burger-menu "  src="./img/burger-icon.png" alt="menu">
       <img class="menu-close burger-menu" src="./img/menu-close-icon.png" alt="close" style="display: none;">
     </div>
 
@@ -83,33 +85,68 @@
         <div class="hero-section" id="heroSection">
             <img  class="hero-bg" src="./img/hero-bg.png" alt="Background" />
 
-            <img src="./img/hero-slider-left-arrow.png" alt="Left Arrow" class="hero-arrow left" id="prevSlide" />
-            <img src="./img/hero-slider-right-arrow.png" alt="Right Arrow" class="hero-arrow right" id="nextSlide" />
-
-            <div class="hero-content fade" id="heroContent">
-                <div class="hero-text">
-                    <h2 id="heroTitle">GET READY for New Adidas bands</h2>
-                    <p id="heroDetail">
-                        Adidas tracks all begin with a starting gate and end with a finish line,
-                        but everything in between varies from track to track. Because no two
-                        tracks are alike, this action sport keeps you on your toes wherever you
-                        are racing.
-                    </p>
+            <div class="hero-slider">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <h2>GET READY for New Adidas bands</h2>
+                        <p>
+                            Adidas tracks all begin with a starting gate and end with a finish line,
+                            but everything in between varies from track to track. Because no two
+                            tracks are alike, this action sport keeps you on your toes wherever you
+                            are racing.
+                        </p>
+                    </div>
+                    <div class="hero-image">
+                        <img src="./img/video-thumbnail-img.png" alt="Video Thumbnail" />
+                        <a href="https://www.youtube.com/watch?v=7e90gBu4pas" data-fancybox class="play-button">
+                            <img src="./img/play-icon.png" alt="Play Icon" />
+                        </a>
+                    </div>
                 </div>
-                <div class="hero-image">
-                    <img src="./img/video-thumbnail-img.png" alt="Video Thumbnail" />
-                    <div class="play-button">
-                        <img src="./img/play-icon.png" alt="Play Icon" />
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <h2>UNLEASH the Power of Movement</h2>
+                        <p>
+                            Every stride, jump, and sprint you make counts. Adidas bands help you train better, recover faster, and push boundaries — no matter your level.
+                        </p>
+                    </div>
+                    <div class="hero-image">
+                        <img src="./img/video-thumbnail-img.png" alt="Video Thumbnail" />
+                        <a href="https://www.youtube.com/watch?v=7e90gBu4pas" data-fancybox class="play-button">
+                            <img src="./img/play-icon.png" alt="Play Icon" />
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <h2>EXPERIENCE the Next Generation</h2>
+                        <p>
+                            Built with cutting-edge tech, these bands aren't just for looks. They’re engineered to adapt to your workout style while keeping comfort in check.
+                        </p>
+                    </div>
+                    <div class="hero-image">
+                        <img src="./img/video-thumbnail-img.png" alt="Video Thumbnail" />
+                        <a href="https://www.youtube.com/watch?v=7e90gBu4pas" data-fancybox class="play-button">
+                            <img src="./img/play-icon.png" alt="Play Icon" />
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <h2>JOIN the Evolution of Fitness</h2>
+                        <p>
+                            Whether you're a beginner or a pro, Adidas bands are your partner in every goal. Start your journey now and feel the difference in every move.
+                        </p>
+                    </div>
+                    <div class="hero-image">
+                        <img src="./img/video-thumbnail-img.png" alt="Video Thumbnail" />
+                        <a href="https://www.youtube.com/watch?v=7e90gBu4pas" data-fancybox class="play-button">
+                            <img src="./img/play-icon.png" alt="Play Icon" />
+                        </a>
                     </div>
                 </div>
             </div>
-
-            <div class="hero-indicators">
-                <div class="indicator active"></div>
-                <div class="indicator"></div>
-                <div class="indicator"></div>
-                <div class="indicator"></div>
-            </div>
+            <div class="hero-indicators"></div>
         </div>
 
         <!-- Main Body Section -->
@@ -303,11 +340,11 @@
         </div>
 
 
-    <script src="./js/hero-slider.js"></script>
-    <script src="./js/thumbnail-slider.js"></script>
-    <script src="./js/swipe-logic.js"></script>
     <script src="./js/burger-logic.js"></script>
-
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <script src="./js/custom-slider.js"></script>
     </div>
 </body>
 </html>
