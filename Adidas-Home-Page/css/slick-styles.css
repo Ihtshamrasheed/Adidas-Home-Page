@@ -1,0 +1,39 @@
+.slick-slider {
+    position: relative;
+}
+
+.slick-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+    cursor: pointer;
+}
+
+.slick-prev {
+    left: 20px;
+}
+
+.slick-next {
+    right: 20px;
+}
+
+.hero-indicators {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+}
+
+.hero-indicators .indicator {
+    width: 20px;
+    height: 5px;
+    background-color: #fff;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.hero-indicators .slick-active .indicator {
+    background-color: #000;
+}

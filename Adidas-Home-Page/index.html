@@ -9,6 +9,10 @@
      <link rel="stylesheet" href="./css/tablet-styles.css">
      <link rel="stylesheet" href="./css/mobile-styles.css">
 
+    <!--Slick-Slider-->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    <link rel="stylesheet" href="./css/slick-styles.css">
 </head>
 <body>
     <div class="page-container">
@@ -83,32 +87,74 @@
         <div class="hero-section" id="heroSection">
             <img  class="hero-bg" src="./img/hero-bg.png" alt="Background" />
 
-            <img src="./img/hero-slider-left-arrow.png" alt="Left Arrow" class="hero-arrow left" id="prevSlide" />
-            <img src="./img/hero-slider-right-arrow.png" alt="Right Arrow" class="hero-arrow right" id="nextSlide" />
-
-            <div class="hero-content fade" id="heroContent">
-                <div class="hero-text">
-                    <h2 id="heroTitle">GET READY for New Adidas bands</h2>
-                    <p id="heroDetail">
-                        Adidas tracks all begin with a starting gate and end with a finish line,
-                        but everything in between varies from track to track. Because no two
-                        tracks are alike, this action sport keeps you on your toes wherever you
-                        are racing.
-                    </p>
-                </div>
-                <div class="hero-image">
-                    <img src="./img/video-thumbnail-img.png" alt="Video Thumbnail" />
-                    <div class="play-button">
-                        <img src="./img/play-icon.png" alt="Play Icon" />
+            <div class="hero-slider">
+                <div class="hero-slide">
+                    <div class="hero-content fade" id="heroContent">
+                        <div class="hero-text">
+                            <h2 id="heroTitle">GET READY for New Adidas bands</h2>
+                            <p id="heroDetail">
+                                Adidas tracks all begin with a starting gate and end with a finish line,
+                                but everything in between varies from track to track. Because no two
+                                tracks are alike, this action sport keeps you on your toes wherever you
+                                are racing.
+                            </p>
+                        </div>
+                        <div class="hero-image">
+                            <img src="./img/video-thumbnail-img.png" alt="Video Thumbnail" />
+                            <div class="play-button">
+                                <img src="./img/play-icon.png" alt="Play Icon" />
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-
-            <div class="hero-indicators">
-                <div class="indicator active"></div>
-                <div class="indicator"></div>
-                <div class="indicator"></div>
-                <div class="indicator"></div>
+                <div class="hero-slide">
+                    <div class="hero-content fade" id="heroContent">
+                        <div class="hero-text">
+                            <h2 id="heroTitle">UNLEASH the Power of Movement</h2>
+                            <p id="heroDetail">
+                                Every stride, jump, and sprint you make counts. Adidas bands help you train better, recover faster, and push boundaries — no matter your level.
+                            </p>
+                        </div>
+                        <div class="hero-image">
+                            <img src="./img/video-thumbnail-img.png" alt="Video Thumbnail" />
+                            <div class="play-button">
+                                <img src="./img/play-icon.png" alt="Play Icon" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-slide">
+                    <div class="hero-content fade" id="heroContent">
+                        <div class="hero-text">
+                            <h2 id="heroTitle">EXPERIENCE the Next Generation</h2>
+                            <p id="heroDetail">
+                                Built with cutting-edge tech, these bands aren't just for looks. They’re engineered to adapt to your workout style while keeping comfort in check.
+                            </p>
+                        </div>
+                        <div class="hero-image">
+                            <img src="./img/video-thumbnail-img.png" alt="Video Thumbnail" />
+                            <div class="play-button">
+                                <img src="./img/play-icon.png" alt="Play Icon" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-slide">
+                    <div class="hero-content fade" id="heroContent">
+                        <div class="hero-text">
+                            <h2 id="heroTitle">JOIN the Evolution of Fitness</h2>
+                            <p id="heroDetail">
+                                Whether you're a beginner or a pro, Adidas bands are your partner in every goal. Start your journey now and feel the difference in every move.
+                            </p>
+                        </div>
+                        <div class="hero-image">
+                            <img src="./img/video-thumbnail-img.png" alt="Video Thumbnail" />
+                            <div class="play-button">
+                                <img src="./img/play-icon.png" alt="Play Icon" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -116,30 +162,21 @@
         <div class="container main-body">
             <div class="main-grid">
                 <div class="main-left">
-                    <div id="thumbnailSlider"class="thumbnail-slider">
-                        <img src="./img/hero-slider-left-arrow.png" class="thumb-arrow left" id="thumbPrev" />
-                        <div class="thumbnailtrack">
-                            <div class="thumb-track" id="thumbTrack">
-                                <img src="./img/thubnail-slider-img.png" class="thumb-item" />
-                                <img src="./img/thubnail-slider-img.png" class="thumb-item" />
-                                <img src="./img/thubnail-slider-img.png" class="thumb-item" />
-                                <img src="./img/thubnail-slider-img.png" class="thumb-item" />
-                                <img src="./img/thubnail-slider-img.png" class="thumb-item" />
-                                <img src="./img/thubnail-slider-img.png" class="thumb-item" />
-                                <img src="./img/thubnail-slider-img.png" class="thumb-item" />
-                                <img src="./img/thubnail-slider-img.png" class="thumb-item" />
-                                <img src="./img/thubnail-slider-img.png" class="thumb-item" />
-                                <img src="./img/thubnail-slider-img.png" class="thumb-item" />
-                                <img src="./img/thubnail-slider-img.png" class="thumb-item" />
-                                <img src="./img/thubnail-slider-img.png" class="thumb-item" />
-                                <img src="./img/thubnail-slider-img.png" class="thumb-item" />
-                                <img src="./img/thubnail-slider-img.png" class="thumb-item" />
-                            </div>
-                        </div>
-                        <img src="./img/hero-slider-right-arrow.png" class="thumb-arrow right" id="thumbNext" />
-                    </div>
-
-                    <div class="thumb-indicators">
+                    <div class="thumbnail-carousel">
+                        <div class="thumb-item"><img src="./img/thubnail-slider-img.png" /></div>
+                        <div class="thumb-item"><img src="./img/thubnail-slider-img.png" /></div>
+                        <div class="thumb-item"><img src="./img/thubnail-slider-img.png" /></div>
+                        <div class="thumb-item"><img src="./img/thubnail-slider-img.png" /></div>
+                        <div class="thumb-item"><img src="./img/thubnail-slider-img.png" /></div>
+                        <div class="thumb-item"><img src="./img/thubnail-slider-img.png" /></div>
+                        <div class="thumb-item"><img src="./img/thubnail-slider-img.png" /></div>
+                        <div class="thumb-item"><img src="./img/thubnail-slider-img.png" /></div>
+                        <div class="thumb-item"><img src="./img/thubnail-slider-img.png" /></div>
+                        <div class="thumb-item"><img src="./img/thubnail-slider-img.png" /></div>
+                        <div class="thumb-item"><img src="./img/thubnail-slider-img.png" /></div>
+                        <div class="thumb-item"><img src="./img/thubnail-slider-img.png" /></div>
+                        <div class="thumb-item"><img src="./img/thubnail-slider-img.png" /></div>
+                        <div class="thumb-item"><img src="./img/thubnail-slider-img.png" /></div>
                     </div>
 
                     <hr class="thumb-divider" />
@@ -303,11 +340,15 @@
         </div>
 
 
-    <script src="./js/hero-slider.js"></script>
+    <script src="./js/slick-slider.js"></script>
     <script src="./js/thumbnail-slider.js"></script>
     <script src="./js/swipe-logic.js"></script>
     <script src="./js/burger-logic.js"></script>
 
     </div>
+    <!--Slick-Slider-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 </body>
 </html>
