@@ -3,6 +3,14 @@
 /* General Slider container */
 .hero-slider {
     position: relative;
+    width: 100%; /* Constrain the slider to its container's width */
+}
+
+/* Center content within each slide */
+.hero-slider .hero-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Arrow buttons */
