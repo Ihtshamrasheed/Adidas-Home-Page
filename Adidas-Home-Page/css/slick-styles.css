@@ -1,39 +1,98 @@
-.slick-slider {
+/* --- HERO SLIDER --- */
+
+/* General Slider container */
+.hero-slider {
     position: relative;
 }
 
-.slick-arrow {
+/* Arrow buttons */
+.hero-slider .slick-prev,
+.hero-slider .slick-next {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    z-index: 1;
+    z-index: 10;
+    width: 48px;  /* Set width of the arrow image */
+    height: 48px; /* Set height of the arrow image */
+    border: none;
+    background-color: transparent;
     cursor: pointer;
 }
 
-.slick-prev {
-    left: 20px;
+/* Hide the default pseudo-element text (e.g., "Previous") */
+.hero-slider .slick-prev::before,
+.hero-slider .slick-next::before {
+    content: '';
 }
 
-.slick-next {
-    right: 20px;
+/* Left Arrow */
+.hero-slider .slick-prev {
+    left: 40px; /* Adjust position from the left */
+    background-image: url('../img/left-arrow.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-size: 0; /* Hide default font icon */
 }
 
-.hero-indicators {
+/* Right Arrow */
+.hero-slider .slick-next {
+    right: 40px; /* Adjust position from the right */
+    background-image: url('../img/right-arrow.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-size: 0; /* Hide default font icon */
+}
+
+/* Indicators (Dots) container */
+.hero-slider .slick-dots {
     position: absolute;
-    bottom: 20px;
+    bottom: 30px; /* Adjust position from the bottom */
     left: 50%;
     transform: translateX(-50%);
-    display: flex;
+    list-style: none;
+    display: flex !important;
+    padding: 0;
+    margin: 0;
 }
 
-.hero-indicators .indicator {
-    width: 20px;
-    height: 5px;
-    background-color: #fff;
-    margin: 0 5px;
+.hero-slider .slick-dots li {
+    margin: 0 8px; /* Space between indicators */
+}
+
+/* Indicator buttons */
+.hero-slider .slick-dots li button {
+    padding: 0;
+    font-size: 0; /* Hide the default dot character */
+    width: 55px;  /* Width of the rectangle */
+    height: 8px;  /* Height of the rectangle */
+    border: 1px solid #ffffff; /* Border for inactive indicators */
+    background: transparent;
     cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
-.hero-indicators .slick-active .indicator {
-    background-color: #000;
+/* Active indicator style */
+.hero-slider .slick-dots li.slick-active button {
+    background-color: #ffffff; /* Fill color for the active indicator */
+}
+
+/* --- THUMBNAIL CAROUSEL --- */
+
+.thumbnail-carousel {
+    margin: 0 -10px; /* Counteract padding on items */
+}
+
+.thumbnail-carousel .slick-slide {
+    padding: 0 10px; /* Gutter between slides */
+}
+
+.thumbnail-carousel .thumb-item {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.thumbnail-carousel .thumb-item img {
+    width: 100%;
+    height: auto;
+    display: block;
 }

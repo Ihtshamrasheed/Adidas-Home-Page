@@ -2,35 +2,32 @@ $(document).ready(function(){
     $('.hero-slider').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
-        arrows: true,
-        prevArrow: '<img src="./img/hero-slider-left-arrow.png" class="hero-arrow left" />',
-        nextArrow: '<img src="./img/hero-slider-right-arrow.png" class="hero-arrow right" />',
-        dots: true,
-        customPaging: function(slider, i) {
-            return '<div class="indicator"></div>';
-        },
-        dotsClass: 'hero-indicators'
+        autoplay: true,
+        autoplaySpeed: 3000,
+        arrows: true, // Show arrows
+        dots: true, // Show dots
+        prevArrow: '<button type="button" class="slick-prev"></button>',
+        nextArrow: '<button type="button" class="slick-next"></button>'
     });
-});
 
-$('.thumbnail-carousel').slick({
-    slidesToShow: 4,
-    slidesToScroll: 1,
-    arrows: true,
-    prevArrow: '<img src="./img/hero-slider-left-arrow.png" class="thumb-arrow left" />',
-    nextArrow: '<img src="./img/hero-slider-right-arrow.png" class="thumb-arrow right" />',
-    responsive: [
-        {
-            breakpoint: 1170,
-            settings: {
-                slidesToShow: 3,
+    $('.thumbnail-carousel').slick({
+        slidesToShow: 6,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 4,
+                }
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 2,
+                }
             }
-        },
-        {
-            breakpoint: 940,
-            settings: {
-                slidesToShow: 1,
-            }
-        }
-    ]
+        ]
+    });
 });
